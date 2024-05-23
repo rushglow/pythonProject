@@ -1,0 +1,633 @@
+{
+  "address": {
+    "ports": [
+      {
+        "portid": "22",
+        "protocol": "tcp",
+        "reason": "syn-ack",
+        "reason_ttl": "48",
+        "scripts": [
+          {
+            "data": {
+              "cpe:/a:openbsd:openssh:6.6.1p1": {
+                "children": [
+                  {
+                    "cvss": "8.5",
+                    "id": "PRION:CVE-2015-5600",
+                    "is_exploit": "false",
+                    "type": "prion"
+                  },
+                  {
+                    "cvss": "8.5",
+                    "id": "CVE-2015-5600",
+                    "is_exploit": "false",
+                    "type": "cve"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "PRION:CVE-2020-16088",
+                    "is_exploit": "false",
+                    "type": "prion"
+                  },
+                  {
+                    "cvss": "6.9",
+                    "id": "PRION:CVE-2015-6564",
+                    "is_exploit": "false",
+                    "type": "prion"
+                  },
+                  {
+                    "cvss": "6.9",
+                    "id": "CVE-2015-6564",
+                    "is_exploit": "false",
+                    "type": "cve"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "service": {
+          "conf": "10",
+          "extrainfo": "Ubuntu Linux; protocol 2.0",
+          "method": "probed",
+          "name": "ssh",
+          "ostype": "Linux",
+          "product": "OpenSSH",
+          "version": "6.6.1p1 Ubuntu 2ubuntu2.13"
+        },
+        "state": "open"
+      },
+      {
+        "portid": "80",
+        "protocol": "tcp",
+        "reason": "syn-ack",
+        "reason_ttl": "48",
+        "scripts": [
+          {
+            "data": {
+              "0": "Apache/2.4.7 (Ubuntu)"
+            }
+          },
+          {
+            "data": {
+              "cpe:/a:apache:http_server:2.4.7": {
+                "children": [
+                  {
+                    "cvss": "7.5",
+                    "id": "PACKETSTORM:176334",
+                    "is_exploit": "true",
+                    "type": "packetstorm"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "PACKETSTORM:171631",
+                    "is_exploit": "true",
+                    "type": "packetstorm"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "OSV:BIT-APACHE-2023-25690",
+                    "is_exploit": "false",
+                    "type": "osv"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "OSV:BIT-APACHE-2022-31813",
+                    "is_exploit": "false",
+                    "type": "osv"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "OSV:BIT-APACHE-2022-23943",
+                    "is_exploit": "false",
+                    "type": "osv"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "OSV:BIT-APACHE-2022-22720",
+                    "is_exploit": "false",
+                    "type": "osv"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "OSV:BIT-APACHE-2021-44790",
+                    "is_exploit": "false",
+                    "type": "osv"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "OSV:BIT-APACHE-2021-42013",
+                    "is_exploit": "false",
+                    "type": "osv"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "OSV:BIT-APACHE-2021-41773",
+                    "is_exploit": "false",
+                    "type": "osv"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "OSV:BIT-APACHE-2021-39275",
+                    "is_exploit": "false",
+                    "type": "osv"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "OSV:BIT-APACHE-2021-26691",
+                    "is_exploit": "false",
+                    "type": "osv"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "OSV:BIT-APACHE-2020-11984",
+                    "is_exploit": "false",
+                    "type": "osv"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "MSF:EXPLOIT-MULTI-HTTP-APACHE_NORMALIZE_PATH_RCE-",
+                    "is_exploit": "true",
+                    "type": "metasploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "MSF:AUXILIARY-SCANNER-HTTP-APACHE_NORMALIZE_PATH-",
+                    "is_exploit": "true",
+                    "type": "metasploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "F9C0CD4B-3B60-5720-AE7A-7CC31DB839C5",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "F41EE867-4E63-5259-9DF0-745881884D04",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "EDB-ID:51193",
+                    "is_exploit": "true",
+                    "type": "exploitdb"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "EDB-ID:50512",
+                    "is_exploit": "true",
+                    "type": "exploitdb"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "EDB-ID:50446",
+                    "is_exploit": "true",
+                    "type": "exploitdb"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "EDB-ID:50406",
+                    "is_exploit": "true",
+                    "type": "exploitdb"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "E796A40A-8A8E-59D1-93FB-78EF4D8B7FA6",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "CVE-2023-25690",
+                    "is_exploit": "false",
+                    "type": "cve"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "CVE-2022-31813",
+                    "is_exploit": "false",
+                    "type": "cve"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "CVE-2022-23943",
+                    "is_exploit": "false",
+                    "type": "cve"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "CVE-2022-22720",
+                    "is_exploit": "false",
+                    "type": "cve"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "CVE-2021-44790",
+                    "is_exploit": "false",
+                    "type": "cve"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "CVE-2021-39275",
+                    "is_exploit": "false",
+                    "type": "cve"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "CVE-2021-26691",
+                    "is_exploit": "false",
+                    "type": "cve"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "CVE-2017-7679",
+                    "is_exploit": "false",
+                    "type": "cve"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "CVE-2017-3167",
+                    "is_exploit": "false",
+                    "type": "cve"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "CNVD-2022-73123",
+                    "is_exploit": "false",
+                    "type": "cnvd"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "CNVD-2022-03225",
+                    "is_exploit": "false",
+                    "type": "cnvd"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "CNVD-2021-102386",
+                    "is_exploit": "false",
+                    "type": "cnvd"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "CC15AE65-B697-525A-AF4B-38B1501CAB49",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "C879EE66-6B75-5EC8-AA68-08693C6CCAD1",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "B02819DB-1481-56C4-BD09-6B4574297109",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "9B4F4E4A-CFDF-5847-805F-C0BAE809DBD5",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "8713FD59-264B-5FD7-8429-3251AB5AB3B8",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "831E1114-13D1-54EF-BDE4-F655114CDC29",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "78787F63-0356-51EC-B32A-B9BD114431C3",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "6A0A657E-8300-5312-99CE-E11F460B1DBF",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "64D31BF1-F977-51EC-AB1C-6693CA6B58F3",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "61075B23-F713-537A-9B84-7EB9B96CF228",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "5C1BB960-90C1-5EBF-9BEF-F58BFFDFEED9",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "5312D04F-9490-5472-84FA-86B3BBDC8928",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "52E13088-9643-5E81-B0A0-B7478BCF1F2C",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "495E99E5-C1B0-52C1-9218-384D04161BE4",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "3F17CA20-788F-5C45-88B3-E12DB2979B7B",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "22DCCD26-B68C-5905-BAC2-71D10DE3F123",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "2108729F-1E99-54EF-9A4B-47299FD89FF2",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "1337DAY-ID-39214",
+                    "is_exploit": "true",
+                    "type": "zdt"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "1337DAY-ID-38427",
+                    "is_exploit": "true",
+                    "type": "zdt"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "1337DAY-ID-37777",
+                    "is_exploit": "true",
+                    "type": "zdt"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "1337DAY-ID-36952",
+                    "is_exploit": "true",
+                    "type": "zdt"
+                  },
+                  {
+                    "cvss": "7.5",
+                    "id": "1337DAY-ID-34882",
+                    "is_exploit": "true",
+                    "type": "zdt"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "PACKETSTORM:127546",
+                    "is_exploit": "true",
+                    "type": "packetstorm"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "OSV:BIT-APACHE-2021-40438",
+                    "is_exploit": "false",
+                    "type": "osv"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "OSV:BIT-APACHE-2020-35452",
+                    "is_exploit": "false",
+                    "type": "osv"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "FDF3DFA1-ED74-5EE2-BF5C-BA752CA34AE8",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "CVE-2021-40438",
+                    "is_exploit": "false",
+                    "type": "cve"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "CVE-2020-35452",
+                    "is_exploit": "false",
+                    "type": "cve"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "CVE-2018-1312",
+                    "is_exploit": "false",
+                    "type": "cve"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "CVE-2017-15715",
+                    "is_exploit": "false",
+                    "type": "cve"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "CVE-2016-5387",
+                    "is_exploit": "false",
+                    "type": "cve"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "CVE-2014-0226",
+                    "is_exploit": "false",
+                    "type": "cve"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "CNVD-2022-03224",
+                    "is_exploit": "false",
+                    "type": "cnvd"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "AE3EF1CC-A0C3-5CB7-A6EF-4DAAAFA59C8C",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "8AFB43C5-ABD4-52AD-BB19-24D7884FF2A2",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "7F48C6CF-47B2-5AF9-B6FD-1735FB2A95B2",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "4810E2D9-AC5F-5B08-BFB3-DDAFA2F63332",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "4373C92A-2755-5538-9C91-0469C995AA9B",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "36618CA8-9316-59CA-B748-82F15F407C4F",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "1337DAY-ID-22451",
+                    "is_exploit": "true",
+                    "type": "zdt"
+                  },
+                  {
+                    "cvss": "6.8",
+                    "id": "0095E929-7573-5E4A-A7FA-F6598A35E8DE",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "0.0",
+                    "id": "PACKETSTORM:140265",
+                    "is_exploit": "true",
+                    "type": "packetstorm"
+                  },
+                  {
+                    "cvss": "0.0",
+                    "id": "B0A9E5E8-7CCC-5984-9922-A89F11D6BF38",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  },
+                  {
+                    "cvss": "0.0",
+                    "id": "45D138AD-BEC6-552A-91EA-8816914CA7F4",
+                    "is_exploit": "true",
+                    "type": "githubexploit"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "service": {
+          "conf": "10",
+          "extrainfo": "(Ubuntu)",
+          "method": "probed",
+          "name": "http",
+          "product": "Apache httpd",
+          "version": "2.4.7"
+        },
+        "state": "open"
+      },
+      {
+        "portid": "135",
+        "protocol": "tcp",
+        "reason": "no-response",
+        "reason_ttl": "0",
+        "scripts": [],
+        "service": {
+          "conf": "3",
+          "method": "table",
+          "name": "msrpc"
+        },
+        "state": "filtered"
+      },
+      {
+        "portid": "139",
+        "protocol": "tcp",
+        "reason": "no-response",
+        "reason_ttl": "0",
+        "scripts": [],
+        "service": {
+          "conf": "3",
+          "method": "table",
+          "name": "netbios-ssn"
+        },
+        "state": "filtered"
+      },
+      {
+        "portid": "445",
+        "protocol": "tcp",
+        "reason": "no-response",
+        "reason_ttl": "0",
+        "scripts": [],
+        "service": {
+          "conf": "3",
+          "method": "table",
+          "name": "microsoft-ds"
+        },
+        "state": "filtered"
+      },
+      {
+        "portid": "1723",
+        "protocol": "tcp",
+        "reason": "no-response",
+        "reason_ttl": "0",
+        "scripts": [],
+        "service": {
+          "conf": "3",
+          "method": "table",
+          "name": "pptp"
+        },
+        "state": "filtered"
+      },
+      {
+        "portid": "9929",
+        "protocol": "tcp",
+        "reason": "syn-ack",
+        "reason_ttl": "42",
+        "scripts": [],
+        "service": {
+          "conf": "10",
+          "method": "probed",
+          "name": "nping-echo",
+          "product": "Nping echo"
+        },
+        "state": "open"
+      },
+      {
+        "portid": "31337",
+        "protocol": "tcp",
+        "reason": "syn-ack",
+        "reason_ttl": "48",
+        "scripts": [],
+        "service": {
+          "conf": "8",
+          "method": "probed",
+          "name": "tcpwrapped"
+        },
+        "state": "open"
+      }
+    ]
+  }
+}
